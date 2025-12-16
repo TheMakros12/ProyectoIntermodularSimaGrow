@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivFilamento"
+        android:layout_width="@dimen/carViewImg"
+        android:layout_height="@dimen/carViewImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/filamento"
+        android:contentDescription="@string/txtContDescrFilamento"
+        />
+
+    <TextView
+        android:id="@+id/tvNombreFilamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ivFilamento"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/txtNombreFilamento"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCategoriaFilamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/txtCategoriaFilamento"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ivFilamento"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreFilamento"
+        android:text="@string/txtPrecio"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPrecioFilamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvPrecio"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreFilamento"
+        android:text="@string/txtPrecioFilamento"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTokens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvPrecioFilamento"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreFilamento"
+        android:text="@string/txtTokens"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

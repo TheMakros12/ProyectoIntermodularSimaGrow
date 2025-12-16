@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ProyectoSimagrow</string>
+    <string name="txtCotDescImgSimarro">Imagen Logo Simarro</string>
+    <string name="txtBtnEntrar">Entrar APP</string>
+    <string name="txtSimagrow">SIMAGROW</string>
+    <string name="txtHintTvUser">Usuario...</string>
+    <string name="txtHintTvPassword">Contraseña...</string>
+    <string name="txtBtnSalirLogin">SALIR DE APP</string>
+    <string name="txtBtnEntrarLogin">INICIAR SESIÓN</string>
+    <string name="txtUserMain">USUARIO:</string>
+    <string name="txtPasswordMain">PASSWORD</string>
+    <string name="defaultTxt">null</string>
+    <string name="txtContDescrImgCardView">Imagen Card View</string>
+    <string name="txtBienvenido">BIENVENID@</string>
+    <string name="txtMenuIncidencia">Incidencias</string>
+    <string name="txtMenuPremios">Premios</string>
+    <string name="txtMenuPerfil">Perfil</string>
+    <string name="txtContDescrFilamento">Imagen de Filamento</string>
+    <string name="txtNombreFilamento">Nombre</string>
+    <string name="txtCategoriaFilamento">CATEGORIA</string>
+    <string name="txtPrecio">Precio: </string>
+    <string name="txtPrecioFilamento">10</string>
+    <string name="txtTokens">Tokens</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtInfoFilamentos">Lista de los Filamentos</string>
+    <string name="txtIncidencia">Rellena los datos de la Incidencia</string>
+    <string name="txtHintNombreIncidencia">Nombre de la incidencia</string>
+    <string name="hintDescripcionIncidencia">Escribe los detalles de la Incidencia...</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtLogin">Iniciar Sesion</string>
+    <string name="txtTvNombre">Nombre:</string>
+    <string name="txtTvInfoNombre">Nombre Completo Usuario</string>
+    <string name="txtTvClase">Clase:</string>
+    <string name="txtTvInfoClase">2º DAM Presencial</string>
+    <string name="txtTvNie">NIE:</string>
+    <string name="txtTvInfoNie">00000000</string>
+    <string name="txtTvNIncidencias">Nº de Incidencias:</string>
+    <string name="txtTvInfoNIncidencias">12</string>
+    <string name="txtBtnConsultarIncidencias">Consultar Incidencias</string>
+    <string name="required">Obligatorio!!!</string>
+    <string name="txtTvNTokens">Nº de Tokens:</string>
+    <string name="txtTvInfoNTokens">100</string>
+    <string name="txtContDescrToken">Imagen del Token</string>
+</resources>

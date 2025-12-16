@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuIncidencias" android:title="@string/txtMenuIncidencia" android:icon="@drawable/add_incidencia_24"/>
+    <item android:id="@+id/menuPremios" android:title="@string/txtMenuPremios" android:icon="@drawable/premios_24"/>
+    <item android:id="@+id/menuPerfil" android:title="@string/txtMenuPerfil" android:icon="@drawable/perfil_24"/>
+
+</menu>
