@@ -1,0 +1,6 @@
+<resources>
+      <dimen name="fab_margin">16dp</dimen>
+    <dimen name="carViewImg">88dp</dimen>
+    <dimen name="imgPerfilUser">120dp</dimen>
+    <dimen name="imgIconToken">34dp</dimen>
+</resources>

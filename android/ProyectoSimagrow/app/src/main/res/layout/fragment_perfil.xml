@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PerfilFragment"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imgPerfilUser"
+        android:layout_width="@dimen/imgPerfilUser"
+        android:layout_height="@dimen/imgPerfilUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/chico"
+        android:contentDescription="@string/txtContDescrImgCardView"
+        />
+
+    <ImageView
+        android:id="@+id/imgLogoSimarro"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/imgPerfilUser"
+        app:layout_constraintStart_toEndOf="@id/imgPerfilUser"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/logo_simarro"
+        android:contentDescription="@string/txtContDescrImgCardView"
+        />
+
+    <Space
+        android:id="@+id/space0"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgPerfilUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space0"
+        android:text="@string/txtTvNie"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvInfoNie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNie"
+        android:text="@string/txtTvInfoNie"
+        android:textSize="18sp"
+        />
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoNie"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space1"
+        android:text="@string/txtTvNombre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvInfoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNombre"
+        android:text="@string/txtTvInfoNombre"
+        android:textSize="18sp"
+        />
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvClase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space2"
+        android:text="@string/txtTvClase"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvInfoClase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvClase"
+        android:text="@string/txtTvInfoClase"
+        android:textSize="18sp"
+        />
+
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoClase"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNIncidencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space3"
+        android:text="@string/txtTvNIncidencias"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvInfoNIncidencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNIncidencias"
+        android:text="@string/txtTvInfoNIncidencias"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/btnConsultarIncidencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/simagrow"
+        android:text="@string/txtBtnConsultarIncidencias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/tvNIncidencias"
+        app:layout_constraintTop_toBottomOf="@id/space3" />
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoNIncidencias"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNTokens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space4"
+        android:text="@string/txtTvNTokens"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvInfoNTokens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNTokens"
+        app:layout_constraintBottom_toBottomOf="@id/imgIconToken"
+        android:text="@string/txtTvInfoNTokens"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgIconToken"
+        android:layout_width="@dimen/imgIconToken"
+        android:layout_height="@dimen/imgIconToken"
+        app:layout_constraintStart_toEndOf="@id/tvInfoNTokens"
+        app:layout_constraintTop_toBottomOf="@id/tvNTokens"
+        android:src="@drawable/token"
+        android:contentDescription="@string/txtContDescrToken"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
