@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_incidencias"
+            android:icon="@drawable/ic_incidencia"
+            android:title="@string/txtDrawerMenuItemIncidendias"
+            />
+        <item
+            android:id="@+id/nav_nueva_incidencia"
+            android:icon="@drawable/ic_nueva_incidencia"
+            android:title="@string/txtDrawerMenuItemNuevaIncidendia"
+            />
+        <item
+            android:id="@+id/nav_recompensas"
+            android:icon="@drawable/premios_24"
+            android:title="@string/txtDrawerMenuItemRecompensas"
+            />
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/ic_noticias"
+            android:title="@string/txtDrawerMenuItemNoticias"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/txtDrawerMenuItemConfiguracion"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/txtDrawerMenuItemPerfil"
+            />
+    </group>
+
+    <item android:title="Salir">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/txtDrawerMenuItemCerrarSesion"
+                />
+        </menu>
+    </item>
+
+</menu>

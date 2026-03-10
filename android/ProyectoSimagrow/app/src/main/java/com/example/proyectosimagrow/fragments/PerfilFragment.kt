@@ -13,11 +13,25 @@ class PerfilFragment : Fragment() {
     private lateinit var binding: FragmentPerfilBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentPerfilBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        
+        val mainActivity = activity as? com.example.proyectosimagrow.activities.MainActivity
+        val user = mainActivity?.activeUser
+
+        user?.let {
+            binding.tvNiaAlumno.text = it.nif
+            binding.tvNombreAlumno.text = "${it.nombre} ${it.apellidos ?: ""}".trim()
+            binding.tvCorreoAlumno.text = it.correo
+        }
     }
 
 }

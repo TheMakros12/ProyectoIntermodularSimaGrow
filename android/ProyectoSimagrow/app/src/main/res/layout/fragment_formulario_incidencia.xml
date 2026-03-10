@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FormularioIncidenciaFragment"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvTextoIncidencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:text="@string/txtTvTextoIncidencia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/simagrow"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiLayputTituloIncidencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextoIncidencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/txtHintTvNombreIncidencia"
+        app:helperText="@string/txtHelperTextTvNombreIncidencia"
+        app:endIconMode="clear_text"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreIncidencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinnerPlantaEspacions"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tiLayputTituloIncidencia"
+        android:layout_marginTop="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerEspacions"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toEndOf="@id/spinnerPlantaEspacions"
+        app:layout_constraintTop_toBottomOf="@id/tiLayputTituloIncidencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiLayputDescripcionIncidencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerEspacions"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/txtHintTvDescripcionIncidencia"
+        app:helperText="@string/txtHelperTextTvDescripcionIncidencia"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDescripcionIncidencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:maxLines="10"
+            android:gravity="top|start"
+            android:scrollbars="vertical"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tiLayputDescripcionIncidencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnBorrar"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/simagrow"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnEnviar"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/simagrow"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

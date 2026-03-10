@@ -1,103 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.IncidenciasFragment"
-    android:orientation="vertical"
-    android:padding="20dp">
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        />
+    android:padding="10dp">
 
     <TextView
-        android:id="@+id/tvIncidencia"
+        android:id="@+id/tvTextoIncidencias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtIncidencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:text="@string/txtTvTextoIncidencias"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/simagrow"
-        />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        />
-
-    <EditText
-        android:id="@+id/etNombreIncidencia"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="@string/txtHintNombreIncidencia"
-        android:inputType="text"
-        android:autofillHints="name"
-        />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
         />
 
     <Spinner
-        android:id="@+id/spinnerEspacioIncidencia"
+        android:id="@+id/spinnerEstadosIncidencias"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTextoIncidencias"
+        app:layout_constraintEnd_toEndOf="parent"
         />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        />
-
-    <EditText
-        android:id="@+id/etDescripcionIncidencias"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:gravity="top|start"
-        android:hint="@string/hintDescripcionIncidencia"
-        android:inputType="textMultiLine"
-        tools:ignore="Autofill"
-        />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        />
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvDatosIncidencias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:orientation="horizontal"
-        >
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerEstadosIncidencias"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/txtTvDatosIncidencias"
+        android:textSize="16sp"
+        />
 
-        <Button
-            android:id="@+id/btnBorrar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnBorrar"
-            android:textSize="18sp"
-            android:backgroundTint="@color/simagrow"
-            tools:ignore="ButtonStyle"
-            />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewIncidencias"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDatosIncidencias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_incidencia"
+        />
 
-        <Button
-            android:id="@+id/btnEnviarIncidencia"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnEnviar"
-            android:textSize="18sp"
-            android:backgroundTint="@color/simagrow"
-            tools:ignore="ButtonStyle"
-            />
-
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

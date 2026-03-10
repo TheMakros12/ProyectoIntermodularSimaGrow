@@ -17,14 +17,26 @@
         app:layout_constraintGuide_percent="0.3"
         />
 
+    <ImageView
+        android:id="@+id/imLogoSimagrow"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvSimagrow"
+        android:src="@drawable/logo_simagrow"
+        android:contentDescription="@string/txtContDescrpLogo"
+        />
+
     <TextView
         android:id="@+id/tvSimagrow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imLogoSimagrow"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/guideLine"
+        app:layout_constraintBottom_toTopOf="@id/tvLogin"
         android:text="@string/txtSimagrow"
         android:gravity="center"
         android:textSize="40sp"
@@ -37,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/guideLine"
+        app:layout_constraintTop_toBottomOf="@id/guideLine"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/txtLogin"
         android:gravity="center"
@@ -135,7 +147,7 @@
         />
 
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="150dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

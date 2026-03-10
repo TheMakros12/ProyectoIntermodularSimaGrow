@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoSimagrow</string>
+    <string name="txtCotDescImgSimarro">Imatge Logo Simarro</string>
+    <string name="txtBtnEntrar">Entrar APP</string>
+    <string name="txtSimagrow">SIMAGROW</string>
+    <string name="txtHintTvUser">Usuari...</string>
+    <string name="txtHintTvPassword">Contrasenya...</string>
+    <string name="txtBtnSalirLogin">EIXIR DE L\'APP</string>
+    <string name="txtBtnEntrarLogin">INICIAR SESSIÓ</string>
+    <string name="txtUserMain">USUARI:</string>
+    <string name="txtPasswordMain">PASSWORD</string>
+    <string name="defaultTxt">null</string>
+    <string name="txtContDescrImgCardView">Imatge Card View</string>
+    <string name="txtBienvenido">BENVINGUT/DA</string>
+    <string name="txtMenuIncidencia">Incidències</string>
+    <string name="txtMenuPremios">Premis</string>
+    <string name="txtMenuPerfil">Perfil</string>
+    <string name="txtContDescrFilamento">Imatge de Filament</string>
+    <string name="txtNombreFilamento">Nom</string>
+    <string name="txtCategoriaFilamento">CATEGORIA</string>
+    <string name="txtPrecio">Preu:</string>
+    <string name="txtPrecioFilamento">10</string>
+    <string name="txtTokens">Tokens</string>
+    <string name="hello_blank_fragment">Hola fragment en blanc</string>
+    <string name="tvInfoRecompensas">Llista de les Recompenses</string>
+    <string name="txtIncidencia">Emplena les dades de la Incidència</string>
+    <string name="txtHintNombreIncidencia">Nom de la incidència</string>
+    <string name="hintDescripcionIncidencia">Escriu els detalls de la Incidència...</string>
+    <string name="btnBorrar">Esborrar</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtLogin">Iniciar Sessió</string>
+    <string name="txtTvNombre">Nom:</string>
+    <string name="txtTvInfoNombre">Nom Complet Usuari</string>
+    <string name="txtTvClase">Classe:</string>
+    <string name="txtTvInfoClase">2n DAM Presencial</string>
+    <string name="txtTvNie">NIE:</string>
+    <string name="txtTvInfoNie">00000000</string>
+    <string name="txtTvNIncidencias">Número d\'Incidències:</string>
+    <string name="txtTvInfoNIncidencias">12</string>
+    <string name="txtBtnConsultarIncidències">Consultar Incidències</string>
+    <string name="required">Obligatori!!!</string>
+    <string name="txtTvNTokens">Número de Tokens:</string>
+    <string name="txtTvInfoNTokens">100</string>
+    <string name="txtContDescrToken">Imatge del Token</string>
+    <string name="txtContDescrpLogo">Imatge del logo de Simagrow</string>
+    <string name="txtContDescrIvRecompensa">Imatge de la Recompensa</string>
+    <string name="txtMenuRecompensas">Recompenses</string>
+    <string name="txtTvSeleccionaLugar">On s\'ha produït l\'Incidència?</string>
+    <string name="txtBtnComprarRecompensa">Comprar</string>
+    <string name="txtContentDescriptionIvImagemusuario">Imatge de l\'Usuari</string>
+    <string name="txtTvNombreUsuario">Nom de l\'Usuari</string>
+    <string name="txtTvCorreoUsuario">correodelusuari@alu.edu.gva.es</string>
+    <string name="txtContentDescriptionIvLogoSimarro">Imatge del Logo de l\'IES Lluís Simarro</string>
+    <string name="txtTvIdIncidencia">1</string>
+    <string name="txtTvNombreIncidencia">Nom de l\'Incidència</string>
+    <string name="txtTvEstadoIncidencia">Estat:</string>
+    <string name="txtTvTextoIncidencias">Ací es mostren les teues incidències</string>
+    <string name="txtTvDatosIncidencias">No tens incidències encara</string>
+    <string name="txtDrawerMenuItemCerrarSessiò">Tancar Sessió</string>
+    <string name="txtDrawerMenuItemHome">Home</string>
+    <string name="txtDrawerMenuItemPerfil">Perfil</string>
+    <string name="txtDrawerMenuItemConfiguracion">Configuració</string>
+    <string name="navigation_drawer_open">Obrir Menú</string>
+    <string name="navigation_drawer_close">Tancar Menú</string>
+    <string name="txtDrawerMenuItemIncidencies">Incidències</string>
+    <string name="txtDrawerMenuItemNuevaIncidencia">Nueva Incidència</string>
+    <string name="txtDrawerMenuItemRecompenses">Recompenses</string>
+    <string name="txtDrawerMenuItemNoticies">Notícies</string>
+    <string name="txtTvTextoIncidencia">Emplena la teua Incidència</string>
+    <string name="txtHintTvNombreIncidencia">Títol de l\'Incidència</string>
+    <string name="txtHelperTextTvNombreIncidencia">Màxim 50 caràcters!!!</string>
+    <string name="txtHintTvDescripcionIncidencia2">Descripció de l\'Incidència</string>
+    <string name="txtHintTvDescripcionIncidencia">Descripció de l\'Incidència</string>
+    <string name="txtHelperTextTvDescripcionIncidencia">Màxim 250 caràcters!!!</string>
+    <string name="txtBtnBorrar">Esborrar</string>
+    <string name="txtBtnEnviar">Enviar</string>
+    <string name="txtContentDescriptionIvImgAlumno">Imatge de l\'Alumne</string>
+    <string name="txtContentDescriptionIvToken">Imatge del Token</string>
+    <string name="txtTvNumTokens">100</string>
+    <string name="txtTvNumeroTokens">100</string>
+    <string name="tvTextoTokes">Disposes de 100 tokens</string>
+    <string name="txtTvTextoNiaAlumno">NIA:</string>
+    <string name="txtTvNiaAlumno">10639258</string>
+    <string name="txtTvTextoNombreAlumno">Nom:</string>
+    <string name="txtTvNombreAlumno">Marcos Durà Blasco</string>
+    <string name="txtTvTextoCorreoAlumno">Correu:</string>
+    <string name="txtTvCorreoAlumno">mardurbla@alu.edu.gva.es</string>
+    <string-array name="inicidencias_filter">
+        <item>Totes</item>
+        <item>Resoltes</item>
+        <item>No resoltes</item>
+    </string-array>
+    <string-array name="Recompensas_filter">
+        <item>Filaments</item>
+        <item>Snacks</item>
+        <item>Merchandising</item>
+    </string-array>
+    <string name="txtConfigTitle">Configuració</string>
+    <string name="txtLanguage">Idioma</string>
+    <string name="txtDarkMode">Mode Fosc</string>
+    <string name="txtEnglish">Anglés</string>
+    <string name="txtSpanish">Castellà</string>
+    <string name="txtCatalan">Valencià</string>
+    <string name="txtNotifications">Notificacions</string>
+    <string name="txtAbout">Informació</string>
+</resources>

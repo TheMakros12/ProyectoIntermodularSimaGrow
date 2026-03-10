@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoSimagrow</string>
+    <string name="txtCotDescImgSimarro">Simarro Logo Image</string>
+    <string name="txtBtnEntrar">Enter APP</string>
+    <string name="txtSimagrow">SIMAGROW</string>
+    <string name="txtHintTvUser">Username...</string>
+    <string name="txtHintTvPassword">Password...</string>
+    <string name="txtBtnSalirLogin">EXIT APP</string>
+    <string name="txtBtnEntrarLogin">LOG IN</string>
+    <string name="txtUserMain">USER:</string>
+    <string name="txtPasswordMain">PASSWORD</string>
+    <string name="defaultTxt">null</string>
+    <string name="txtContDescrImgCardView">Card View Image</string>
+    <string name="txtBienvenido">WELCOME</string>
+    <string name="txtMenuIncidencia">Incidents</string>
+    <string name="txtMenuPremios">Prizes</string>
+    <string name="txtMenuPerfil">Profile</string>
+    <string name="txtContDescrFilamento">Filament Image</string>
+    <string name="txtNombreFilamento">Name</string>
+    <string name="txtCategoriaFilamento">CATEGORY</string>
+    <string name="txtPrecio">Price:</string>
+    <string name="txtPrecioFilamento">10</string>
+    <string name="txtTokens">Tokens</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvInfoRecompensas">Rewards List</string>
+    <string name="txtIncidencia">Fill in the Incident data</string>
+    <string name="txtHintNombreIncidencia">Incident name</string>
+    <string name="hintDescripcionIncidencia">Type the Incident details...</string>
+    <string name="btnBorrar">Delete</string>
+    <string name="btnEnviar">Send</string>
+    <string name="txtLogin">Log In</string>
+    <string name="txtTvNombre">Name:</string>
+    <string name="txtTvInfoNombre">User Full Name</string>
+    <string name="txtTvClase">Class:</string>
+    <string name="txtTvInfoClase">2nd DAM In-person</string>
+    <string name="txtTvNie">NIE:</string>
+    <string name="txtTvInfoNie">00000000</string>
+    <string name="txtTvNIncidencias">Number of Incidents:</string>
+    <string name="txtTvInfoNIncidencias">12</string>
+    <string name="txtBtnConsultarIncidencias">View Incidents</string>
+    <string name="required">Required!!!</string>
+    <string name="txtTvNTokens">Number of Tokens:</string>
+    <string name="txtTvInfoNTokens">100</string>
+    <string name="txtContDescrToken">Token Image</string>
+    <string name="txtContDescrpLogo">Simagrow Logo Image</string>
+    <string name="txtContDescrIvRecompensa">Reward Image</string>
+    <string name="txtMenuRecompensas">Rewards</string>
+    <string name="txtTvSeleccionaLugar">Where did the Incident occur?</string>
+    <string name="txtBtnComprarRecompensa">Buy</string>
+    <string name="txtContentDescriptionIvImagemusuario">User Image</string>
+    <string name="txtTvNombreUsuario">User Name</string>
+    <string name="txtTvCorreoUsuario">useremail@alu.edu.gva.es</string>
+    <string name="txtContentDescriptionIvLogoSimarro">IES Lluis Simarro Logo Image</string>
+    <string name="txtTvIdIncidencia">1</string>
+    <string name="txtTvNombreIncidencia">Incident Name</string>
+    <string name="txtTvEstadoIncidencia">Status:</string>
+    <string name="txtTvTextoIncidencias">Here are your incidents</string>
+    <string name="txtTvDatosIncidencias">No incidents yet</string>
+    <string name="txtDrawerMenuItemCerrarSesion">Log Out</string>
+    <string name="txtDrawerMenuItemHome">Home</string>
+    <string name="txtDrawerMenuItemPerfil">Profile</string>
+    <string name="txtDrawerMenuItemConfiguracion">Settings</string>
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="txtDrawerMenuItemIncidendias">Incidents</string>
+    <string name="txtDrawerMenuItemNuevaIncidendia">New Incident</string>
+    <string name="txtDrawerMenuItemRecompensas">Rewards</string>
+    <string name="txtDrawerMenuItemNoticias">News</string>
+    <string name="txtTvTextoIncidencia">Fill your Incident</string>
+    <string name="txtHintTvNombreIncidencia">Incident Title</string>
+    <string name="txtHelperTextTvNombreIncidencia">Maximum 50 characters!!!</string>
+    <string name="txtHintTvDescripcionIncidencia2">Incident Description</string>
+    <string name="txtHintTvDescripcionIncidencia">Incident Description</string>
+    <string name="txtHelperTextTvDescripcionIncidencia">Maximum 250 characters!!!</string>
+    <string name="txtBtnBorrar">Delete</string>
+    <string name="txtBtnEnviar">Send</string>
+    <string name="txtContentDescriptionIvImgAlumno">Student Image</string>
+    <string name="txtContentDescriptionIvToken">Token Image</string>
+    <string name="txtTvNumTokens">100</string>
+    <string name="txtTvNumeroTokens">100</string>
+    <string name="tvTextoTokes">You have 100 tokens available</string>
+    <string name="txtTvTextoNiaAlumno">NIA:</string>
+    <string name="txtTvNiaAlumno">10639258</string>
+    <string name="txtTvTextoNombreAlumno">Name:</string>
+    <string name="txtTvNombreAlumno">Marcos Durà Blasco</string>
+    <string name="txtTvTextoCorreoAlumno">Email:</string>
+    <string name="txtTvCorreoAlumno">mardurbla@alu.edu.gva.es</string>
+    <string-array name="inicidencias_filter">
+        <item>All</item>
+        <item>Resolved</item>
+        <item>Not resolved</item>
+    </string-array>
+    <string-array name="Recompensas_filter">
+        <item>Filaments</item>
+        <item>Snacks</item>
+        <item>Merchandising</item>
+    </string-array>
+    <string name="txtConfigTitle">Settings</string>
+    <string name="txtLanguage">Language</string>
+    <string name="txtDarkMode">Dark Mode</string>
+    <string name="txtEnglish">English</string>
+    <string name="txtSpanish">Spanish</string>
+    <string name="txtCatalan">Catalan</string>
+    <string name="txtNotifications">Notifications</string>
+    <string name="txtAbout">About</string>
+</resources>

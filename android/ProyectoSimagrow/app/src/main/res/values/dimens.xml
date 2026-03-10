@@ -3,4 +3,6 @@
     <dimen name="carViewImg">88dp</dimen>
     <dimen name="imgPerfilUser">120dp</dimen>
     <dimen name="imgIconToken">34dp</dimen>
+    <dimen name="ivImagenUsuario">80dp</dimen>
+    <dimen name="ivImgAlumno">150dp</dimen>
 </resources>
